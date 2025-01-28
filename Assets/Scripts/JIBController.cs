@@ -14,7 +14,7 @@ public class JIBController : MonoBehaviour
         // Play the animation when the "P" key is pressed
         if (Input.GetKeyDown(KeyCode.P) && !isPlaying)
         {
-            animator.Play("JackInTheBox");   // Replace with the actual animation clip name
+            animator.Play("JackintheBox");   // Replace with the actual animation clip name
             isPlaying = true;
             /*StartCoroutine(PlayConfettiWithDelay(confettiDelay));*/ // Start coroutine to delay confetti
             musicBox.Play();
