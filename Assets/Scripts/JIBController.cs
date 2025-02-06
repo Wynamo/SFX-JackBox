@@ -16,7 +16,7 @@ public class JIBController : MonoBehaviour
         {
             animator.Play("JackintheBox");   // Replace with the actual animation clip name
             isPlaying = true;
-            /*StartCoroutine(PlayConfettiWithDelay(confettiDelay));*/ // Start coroutine to delay confetti
+            StartCoroutine(PlayConfettiWithDelay(confettiDelay)); // Start coroutine to delay confetti
             musicBox.Play();
         }
     }
